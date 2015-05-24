@@ -18,7 +18,7 @@ public class GUI extends JFrame {
 	int Size1 = 752;
 	int Size2 = 423;
 	String or16 = "16:9";
-	String Fonts = "Ghodic";
+	String Fonts = "serif";
 	int FontEvent = Font.PLAIN;
 	int FontSize = 32;
 	Font FontBasic = new Font(Fonts, FontEvent, FontSize);
@@ -45,22 +45,22 @@ public class GUI extends JFrame {
 		
 		setLayout(new FlowLayout());
 		
-		JButton LabelSideL = new JButton("馆 促农权");
+		JLabel LabelSideL = new JLabel("LLLLLLLLLLLLLLL");
 		LabelSideL.setFont(FontBasic);
-		//LabelSideL.setSize(141, 423);
-		//LabelSideL.setLocation(0, 0);
+		LabelSideL.setSize(141, 423);
+		LabelSideL.setLocation(0, 0);
 		add(LabelSideL);
 		
-		JButton LabelMain = new JButton("馆 促农权");
+		JLabel LabelMain = new JLabel("1111111111111111");
 		LabelMain.setFont(FontBasic);
-		//LabelMain.setSize(470, 423);
-		//LabelMain.setLocation(141, 0);
+		LabelMain.setSize(470, 423);
+		LabelMain.setLocation(141, 0);
 		add(LabelMain);
 		
-		JButton LabelSideR = new JButton("馆 促农权");
+		JLabel LabelSideR = new JLabel("RRRRRRRRRRRRRRR");
 		LabelSideR.setFont(FontBasic);
-		//LabelSideR.setSize(141, 423);
-		//LabelSideR.setLocation(611, 0);
+		LabelSideR.setSize(141, 423);
+		LabelSideR.setLocation(611, 0);
 		add(LabelSideR);
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
