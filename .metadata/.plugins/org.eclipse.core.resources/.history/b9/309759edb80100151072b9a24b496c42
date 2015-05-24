@@ -1,9 +1,7 @@
 package classes;
 
 import java.awt.BorderLayout;
-import java.awt.Dimension;
 import java.awt.Font;
-import java.awt.Toolkit;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -18,7 +16,6 @@ public class GUI extends JFrame {
 	int FontEvent = Font.PLAIN;
 	int FontSize = 150;
 	Font FontBasic = new Font(Fonts, FontEvent, FontSize);
-	Dimension comscreen =Toolkit.getDefaultToolkit().getScreenSize(); //http://sugame.tistory.com/618
 
 	GUI(String title) {
 		
@@ -27,7 +24,6 @@ public class GUI extends JFrame {
 		setLayout(new BorderLayout());
 		
 		System.out.println(ProjectName + "을 시작합니다.");
-		System.out.println("모니터 크기: " + comscreen.width + "x" + comscreen.height);
 		System.out.println("화면 크기: " + Size1 + "x" + Size2 + "(화면 비율: " + or16 + ")");
 		
 		if (FontEvent == Font.PLAIN) {

@@ -18,7 +18,7 @@ public class GUI extends JFrame {
 	int FontEvent = Font.PLAIN;
 	int FontSize = 150;
 	Font FontBasic = new Font(Fonts, FontEvent, FontSize);
-	Dimension comscreen =Toolkit.getDefaultToolkit().getScreenSize(); //http://sugame.tistory.com/618
+	Dimension comscreen =Toolkit.getDefaultToolkit().getScreenSize();
 
 	GUI(String title) {
 		
