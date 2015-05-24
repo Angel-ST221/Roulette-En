@@ -27,7 +27,7 @@ public class GUI extends JFrame {
 		setLayout(new BorderLayout());
 		
 		System.out.println(ProjectName + "을 시작합니다.");
-		System.out.println("모니터 해상도: " + comscreen.width + "x" + comscreen.height);
+		System.out.println("모니터 크기: " + comscreen.width + "x" + comscreen.height);
 		System.out.println("화면 크기: " + Size1 + "x" + Size2 + "(화면 비율: " + or16 + ")");
 		
 		if (FontEvent == Font.PLAIN) {
