@@ -13,7 +13,7 @@ public class GUI extends JFrame {
 	int Size2 = 423;
 	String or16 = "16:9";
 	String Fonts = "serif";
-	int FontEvent = Font.PLAIN;
+	int FontEvent = Font.ITALIC;
 	int FontSize = 150;
 	Font FontBasic = new Font(Fonts, FontEvent, FontSize);
 
@@ -27,13 +27,13 @@ public class GUI extends JFrame {
 		System.out.println("화면 크기: " + Size1 + "x" + Size2 + "(화면 비율: " + or16 + ")");
 		
 		if (FontEvent == Font.PLAIN) {
-			System.out.println("글꼴: " + Fonts + ", 크기: " + FontSize + ", 효과 없음");
+			System.out.println("글꼴: " + Fonts + ", 크기: " + FontSize + ". 효과 없음");
 			
 		} else if (FontEvent == Font.BOLD) {
-			System.out.println("글꼴: " + Fonts + ", 크기: " + FontSize + ", 글씨 굵게");
+			System.out.println("글꼴: " + Fonts + ", 크기: " + FontSize + ". 글씨 굵게");
 			
 		} else if (FontEvent == Font.ITALIC) {
-			System.out.println("글꼴: " + Fonts + ", 크기: " + FontSize + ", 글씨 기울어지게");
+			System.out.println("글꼴: " + Fonts + ", 크기: " + FontSize + ". 글씨 기울어지게");
 			
 		}
 		

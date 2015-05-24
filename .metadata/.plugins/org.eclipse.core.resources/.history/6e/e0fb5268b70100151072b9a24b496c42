@@ -36,6 +36,44 @@ public class GUI extends JFrame {
 			System.out.println("글꼴: " + Fonts + ", 크기: " + FontSize + ", 글씨 기울어지게");
 			
 		}
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		
+		System.out.println("1");
+		System.out.println("1");System.out.println("1");
+		
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("1");
+		
 		
 		JLabel LabelMain = new JLabel("1");
 		add(LabelMain, BorderLayout.CENTER);
